@@ -17,7 +17,7 @@ public class Point {
     }
 
     public int addition() {
-        return x+y+1;
+        return x+y;
     }
 
     public String toString() {
