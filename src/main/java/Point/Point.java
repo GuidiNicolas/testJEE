@@ -12,6 +12,14 @@ public class Point {
         this.y = y;
     }
 
+    public int soustraction() {
+        return x-y;
+    }
+
+    public int addition() {
+        return x+y+1;
+    }
+
     public String toString() {
         return "X : " + x + ", Y : " + y;
     }
